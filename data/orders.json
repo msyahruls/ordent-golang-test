@@ -1,0 +1,10 @@
+{
+  "1": {
+    "id": 1,
+    "user_id": 1,
+    "product_id": 1,
+    "quantity": 2,
+    "total_price": 2401.98,
+    "status": "Completed"
+  }
+}

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ecommerce:
+    build: .
+    ports:
+      - '8080:8080' # Expose the container's port 8080 on the host machine
+    volumes:
+      - ./data:/app/data # Mount the local 'data' directory to the container's '/app/data' directory
+    environment:
+      - GO_ENV=production
+    restart: unless-stopped

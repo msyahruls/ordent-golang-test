@@ -1,0 +1,23 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Laptop",
+    "description": "High-end gaming laptop",
+    "price": 1200.99,
+    "stock": 10
+  },
+  "2": {
+    "id": 2,
+    "name": "Smartphone",
+    "description": "Flagship phone updated",
+    "price": 1000.99,
+    "stock": 12
+  },
+  "4": {
+    "id": 4,
+    "name": "Tablet mid",
+    "description": "Mid tablet",
+    "price": 699.99,
+    "stock": 5
+  }
+}
